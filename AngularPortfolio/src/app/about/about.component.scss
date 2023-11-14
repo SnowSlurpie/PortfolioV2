@@ -1,6 +1,41 @@
-.profile-photo {
-  width: 150px;  // or any size you prefer
-  height: auto;
-  border-radius: 50%; // if you want a circular image
-  // Add more styling as needed
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-info {
+    flex-basis: 40%;
+
+    img.profile-photo {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10%;
+      margin-bottom: 1rem;
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+
+  .about-text {
+    flex-basis: 70%;
+    padding: 0 1rem;
+    margin: 0;
+
+    p {
+      text-align: center;
+      line-height: 1.6;
+    }
+  }
 }
