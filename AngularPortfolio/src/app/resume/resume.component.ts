@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-resume',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent {
+@ViewChild('image') image: ElementRef;
 
 }
