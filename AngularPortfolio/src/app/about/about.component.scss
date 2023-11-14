@@ -1,8 +1,6 @@
-#content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-
-  .about {
-    /* style as you like */
-  }};
+.profile-photo {
+  width: 150px;  // or any size you prefer
+  height: auto;
+  border-radius: 50%; // if you want a circular image
+  // Add more styling as needed
+}
