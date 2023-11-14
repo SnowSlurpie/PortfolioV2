@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ResumeComponent } from './resume/resume.component';
     ContactComponent,
     NavbarComponent,
     FooterComponent,
-    ResumeComponent
+    ResumeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,5 @@ import {Component, ElementRef, ViewChild} from '@angular/core';
   styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent {
-@ViewChild('image') image: ElementRef;
 
 }
