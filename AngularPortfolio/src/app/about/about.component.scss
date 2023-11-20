@@ -1,9 +1,16 @@
+.content-container {
+  padding-top: 377px; // Adjust this value based on your actual navbar height
+}
+.spacing{
+  font-size: 24px;
+ padding-right : 180px;
+ }
 .about-section {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 0;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -30,12 +37,20 @@
 
   .about-text {
     flex-basis: 70%;
-    padding: 0 1rem;
+    padding: 0 180px;
     margin: 0;
 
     p {
       text-align: center;
       line-height: 1.6;
+      font-size: 24px;
     }
   }
+
+}
+.container-fluid {
+  display: flex;
+  align-items: center; // Vertically centers content
+  justify-content: center; // Horizontally centers content
+  padding:0;
 }

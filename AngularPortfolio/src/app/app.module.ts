@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import {NgOptimizedImage} from "@angular/common";
+import {ModalModule} from "ngx-bootstrap/modal";
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {NgOptimizedImage} from "@angular/common";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ModalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
