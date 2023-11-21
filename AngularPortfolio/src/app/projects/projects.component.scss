@@ -19,6 +19,17 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       padding: 20px;
       background-color: #fff;
+      background-size: cover; // Cover the entire area of the card
+      background-position: center; // Center the image within the card
+      overflow: hidden; // Prevent overflow of the content
+
+      // Ensure that the text content overlays the background image properly
+      .project-content {
+        background-color: rgba(255, 255, 255, 0.8); // Semi-transparent background for readability
+        margin-top: auto; // Push content to the bottom of the card
+        padding: 15px; // Padding around the text content
+        border-radius: 0 0 15px 15px; // Rounded corners at the bottom
+      }
 
       h3 {
         margin-top: 0;
@@ -27,10 +38,7 @@
       a {
         color: #008CBA;
         text-decoration: none;
-        align-self: flex-start;
-
-        &:hover,
-        &:focus {
+        &:hover, &:focus {
           color: #005766;
         }
       }
