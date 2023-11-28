@@ -20,8 +20,9 @@
       padding: 20px;
       background-color: #fff;
       background-size: cover; // Cover the entire area of the card
-      background-position: center; // Center the image within the card
+      background-position: right; // Center the image within the card
       overflow: hidden; // Prevent overflow of the content
+      color: white;
 
       // Ensure that the text content overlays the background image properly
       .project-content {
